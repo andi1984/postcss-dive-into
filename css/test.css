@@ -1,0 +1,15 @@
+:root {
+      --mypadding: 2px
+}
+html {
+      font-size: 18px;
+}
+.block__element {
+      color: red;
+      transition: all 1s ease-in-out;
+      font-size: 22px;
+}
+#dontdothis {
+      color: red !important;
+      padding: calc(3 * var(--mypadding));
+}
